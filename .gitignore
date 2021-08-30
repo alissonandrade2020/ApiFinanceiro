@@ -1,0 +1,8 @@
+node_modules
+Anotacoes
+tmp
+*.tmp*
+*.log
+.changelog
+coverage
+.env
