@@ -1,5 +1,9 @@
 <h1 align="center">API FINANCEIRO</h1>
 
+<h1 align="center">
+    <img alt="APIFinanceira" src="https://github.com/alissonandrade2020/ApiFinanceiro/blob/master/video/videoapresentacao.gif" />
+</h1>
+
 ## ✨ Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
