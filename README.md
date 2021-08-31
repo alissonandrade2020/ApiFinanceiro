@@ -1,4 +1,4 @@
-<h1 align="center">API FINANCEIRO</h1>
+<h1 align="center">API FINANCEIRA</h1>
 
 <h1 align="center">
     <img alt="APIFinanceira" src="https://github.com/alissonandrade2020/ApiFinanceiro/blob/master/video/videoapresentacao.gif" />
