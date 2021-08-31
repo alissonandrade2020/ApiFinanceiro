@@ -77,14 +77,14 @@ server.post('/customers', (request, response) => {
 server.post('/defaulters', (request, response) => {
   const query = request.query;
   return response.json([
-      "Rota de Clientes"])
+      "Rota de Inadimplentes"])
 });
 
 
 server.get('/defaulters', (request, response) => {
   const query = request.query;
   return response.json([
-      "Rota de Usuários"])
+      "Rota de Inadimplentes"])
 });
 
 
