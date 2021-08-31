@@ -50,24 +50,43 @@ server.get("/", (request, response) => {
       " | Linkedin: https://www.linkedin.com/in/alisson-de-andrade-ara%C3%BAjo-160224190/        |"])
 });
 
-server.get('/client', async (req, res) => {
-  try {
-    const users = await UserModel.find()
-    res.send(users)
-  } catch (error) {
-    res.send(500, error)
-  }
-})
+server.get('/users', (request, response) => {
+  const query = request.query;
+  return response.json([
+      "Rota de Usuários"])
+});
+
+server.post('/users', (request, response) => {
+  const query = request.query;
+  return response.json([
+      "Rota de Usuários"])
+});
+
+server.get('/customers', (request, response) => {
+  const query = request.query;
+  return response.json([
+      "Rota de Clientes"])
+});
+
+server.post('/customers', (request, response) => {
+  const query = request.query;
+  return response.json([
+      "Rota de Clientes"])
+});
+
+server.post('/defaulters', (request, response) => {
+  const query = request.query;
+  return response.json([
+      "Rota de Clientes"])
+});
 
 
-server.get('/users', async (req, res) => {
-  try {
-    const users = await UserModel.find()
-    res.send(users)
-  } catch (error) {
-    res.send(500, error)
-  }
-})
+server.get('/defaulters', (request, response) => {
+  const query = request.query;
+  return response.json([
+      "Rota de Usuários"])
+});
+
 
 server.listen(SERVER_PORT);
 console.log(`Server is running - API ON -> Alisson de Andrade Araujo : ${APP_URL}:${SERVER_PORT}`);

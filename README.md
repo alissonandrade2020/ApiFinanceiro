@@ -19,9 +19,9 @@ API FINANCEIRA é uma plataforma para promover a organização e verificar a lis
 - Rode `yarn` para baixar as dependências
 - Rode o `yarn dev` para iniciar a aplicação.
 
-Por fim, a aplicação estará disponível em `http://localhost:3001`
+Por fim, a aplicação estará disponível em `http://localhost:3001 /  http://localhost:users / http://localhost:3001/customers / http://localhost:3001/defaulters`
 
-Se tentar adicionar uma rota `http://localhost:3001/teste` a rota apresentará uma mensagem: "message": "/teste does not exist"
+Se tentar adicionar uma rota `http://localhost:3001/teste ou http://localhost:3001/Teste` a rota apresentará uma mensagem: "message": "/teste does not exist"
 
 ## 📄 Licença
 
