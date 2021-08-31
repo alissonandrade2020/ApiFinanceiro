@@ -2,7 +2,7 @@ version: "3.1"
 services:
   db:
     image: mongo:4.2
-    container_name: db_totvs
+    container_name: db
     restart: always
     ports:
       - ${DB_PORT}:27017
@@ -13,7 +13,7 @@ services:
 
   api:
     image: node:latest
-    container_name: api_totvs
+    container_name: api
     restart: always
     env_file:
      - .env
